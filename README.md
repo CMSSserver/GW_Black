@@ -25,4 +25,4 @@ Latest ✔ |
 [GW_Black – GitHub](https://github.com/CMSSserver/GW_Black)
 
 ### 安装地址（任选其一；正在更新）
-[Click to install Forum Grandmaster for Discuz! – GitHub](https://github.com/CMSSserver/GW_Black)
+[Click to install GW_Black – GitHub](https://github.com/CMSSserver/GW_Black/releases/download/v0.1-beta.1/GW_Blackv0.1-beta.1.js)
