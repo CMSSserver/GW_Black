@@ -25,7 +25,7 @@
 [GW_Black – GitHub](https://github.com/CMSSserver/GW_Black)
 
 ### 安装地址（任选其一；最新版本）
-[Click to install GW_Black – GitHub](https://github.com/CMSSserver/GW_Black/releases/download/v0.1.1-beta/GW_Blackv0.1.1-beta.js)
+[Click to install GW_Black – GitHub](https://github.com/CMSSserver/GW_Black/releases/download/v0.1.2-beta/GW_Black.js)
 
 [Click to install GW_Black – Greasy Fork](https://greasyfork.org/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F/code/GW%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F.user.js)
 
