@@ -2,7 +2,7 @@
 // @name         GW论坛黑色模式
 // @namespace    https://github.com/CMSSserver/GW_Black
 // @namespace    https://greasyfork.org/zh-CN/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F
-// @version      v0.1.1-beta
+// @version      v0.1.2-beta
 // @description  Giantess Waltz论坛模板模黑色样式の油猴脚本
 // @author       CMSSserver
 // @match        https://giantesswaltz.org/*
@@ -65,9 +65,6 @@
         .tb .a a, .tb .current a, .tbmu .a{
             background:black;
         }
-        .cft{
-            border-top-color:black;
-        }
         .bm_h h2{
             border-left-color:black;
         }
@@ -93,6 +90,15 @@
         `)
 
         //！！没注释结束！！
+
+    GM_addStyle(`
+        .cft{
+            border-top-color:black;
+        }
+        #ft a:hover {
+           color: black;
+        }
+    `)//页脚问题修复
 
     GM_addStyle(`
         .egg_div {
@@ -144,8 +150,11 @@
         .psth, .cm .psth {
             background-image: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/165648oa01bg21nfg1c7kn.png) !important;
         }
+        .icon_ring:hover {
+            background: gray !important;
+        }
 
-    `)//帖子页面点评+回复+举报黑色+点评和赠礼黑色
+    `)//帖子页面点评+回复+举报黑色+点评和赠礼黑色+移动到点上变灰
     GM_addStyle(`
         #uhd .s_nav li .fa {
             color: black !important;
@@ -180,6 +189,12 @@
             background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/190748k5nn56vnacocgo7v.gif);
         }
     `)//用户等级进度条（在右上角个人头像那里）
+
+    GM_addStyle(`
+        .cmy_main {
+            border-top-color:black;
+        }
+    `)//右上角头像框横条黑色
 
     GM_addStyle(`
         .c_ttp li i {
@@ -223,6 +238,26 @@
         }
     `)//个人签名设置
 
+    GM_addStyle(`
+        #uhd .s_nav li em {
+            background: black;
+        }
+        #uhd .s_nav li.a, #uhd .s_nav li.a a, #uhd .s_nav li a:hover, #uhd .flw_hd .sub a:hover, #uhd .flw_hd .sub a:hover .t {
+            color: #AAAAAA;
+        }
+        .c_threadlist li:hover .cur {
+            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/04/110659d9vu2vpcrfpdk5ch.png);
+        }
+        .c_threadlist li .sub a:hover, .c_threadlist li .tit a:hover, .c_threadlist .cli_reply a:hover {
+            color: black;
+        }
+        .c_threadlist li .tit a {
+            color: #7e7e7e;
+        }
+    `)//个人主页的主题……按钮设置+移动到上方横条变黑+移动到点上的时候是灰点+默认的主题下帖子标题默认灰色，移到上方是黑色
+    document.querySelector("#ct > div > div.bm.bw0 > div > div.bm_c.u_profile > div:nth-child(1) > h2 > img").setAttribute("src","./template/the_c_style/images/common/online.png")//重新定义用户主页在线显示
+    
+
     let sc_img2 = document.querySelector("#scform > tbody > tr > td > h1 > a > img");//定义二级搜索页面LOGO
     if(sc_img2 !== null){
         sc_img2.setAttribute("src","/template/the_c_style/images/logo7.png");//修改二级SC_LOGO
@@ -251,5 +286,10 @@
         右上角头像框内等级条灰度
         论坛版块简介大头贴更换默认
         签名黑色
-
+    v0.1.2-beta
+        将个人主页的鼠标选中到主题……的时候设为黑色，移动到上方横条变黑+移动到点上的时候是灰点+默认的主题下帖子标题默认灰色，移到上方是黑色
+        右上角头像框横条黑色
+        重新定义用户主页在线显示
+        页脚文本鼠标移到上方变黑
+        同时发布css v0.1.2-beta版本！
 */
