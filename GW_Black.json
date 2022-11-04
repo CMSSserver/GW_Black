@@ -1,0 +1,132 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1667538393194,
+    "sections": [
+      {
+        "code": "#ct {\n            background: #ffffffcc;\n        }\n        #nv_search #ft {\n            background: #ffffffcc;\n            margin: 0 20px;\n        }\n        .p_pop a:hover{\n            background: black;\n        }\n        .pbw p {\n            background: #ffffffcc;\n        }\n        .xs3 {\n            background: #ffffffcc;\n        }",
+        "start": 278,
+        "urlPrefixes": [
+          "https://giantesswaltz.org/search.php"
+        ]
+      },
+      {
+        "code": ".slst {\n            width: 100%;\n        }\n        body{\n            background:none !important;\n        }\n        html{\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/131427md6gxzrefqxdabnd.jpg);\n            background-repeat:no-repeat;\n            margin:0px;\n            background-size:100% 100%;\n            background-attachment:fixed;\n        }\n        .ctodayposts{\n            background:black;\n        }\n    /*让主页的消息数背景为黑色*/\n\n    /*！！下面的内容没有注释！！*/\n\n        .cpost{\n            background:black;\n        }\n        .ttp .a a, .ttp .a a:hover, .ttp a:hover{\n            background:black ;\n        }\n        .ttp .num{\n            background:black;\n        }\n        .pg a, .pg strong, .pgb a, .pg label{\n            background-color:black;\n        }\n        .cscrolltop .child{\n            background:black;\n        }\n        .pg strong{\n            color:#fff;\n        }\n        .acpost{\n            background:black;\n        }\n        .tbn li.a{\n            border-left:5px solid black;\n        }\n        .tb .a a, .tb .current a, .tbmu .a{\n            background:black;\n        }\n        .bm_h h2{\n            border-left-color:black;\n        }\n        #threadlist{\n            border-top-color:black;\n        }\n        .c_nv {\n            background-color: black;\n        }\n        .fl .bm_h{\n            border-bottom:1px solid black;\n        }\n        .fl_icn_t{\n            background:black;\n        }\n        .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{\n            background:black;\n        }\n        #threadlist {\n            border-top-color: black;\n        }\n\n        /*！！没注释结束！！*/\n\n        .cft{\n            border-top-color:black;\n        }\n        #ft a:hover {\n           color: black;\n        }\n    /*页脚问题修复*/\n\n        .egg_div {\n            background-color: #ffffffcc;\n        }\n        .vrd_div {\n            height: 400px !important;\n            background-color: #ffffffcc;\n        }\n    /*砸金蛋优化*/\n\n        .c_scbar_type li:hover {\n            background: gray;\n        }\n        .c_scbar_type li {\n            background: black;\n        }\n    /*不在搜索页面的时候（即为弹窗的时候）让它弹窗的一堆东西弄一下*/\n\n        .p_pop a:hover{\n            background: black;\n        }\n    /*下拉框鼠标移动到即为黑色*/\n\n        #pt {\n            background: url(https://giantesswaltz.org/./template/the_c_style/images/tmbg/white_80.png);\n            border-radius: 5px;\n        }\n    /*版块页面上方导航添加白底+圆滑角度*/\n\n\n\n        .pob .cmmnt i {\n            color: black;\n        }\n        .pob .fastre i {\n            color: black;\n        }\n        .pob .report i {\n            color: black;\n        }\n        .pob .editp i {\n            color: black;\n        }\n        .psth, .cm .psth {\n            background-image: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/165648oa01bg21nfg1c7kn.png) !important;\n        }\n        .icon_ring:hover {\n            background: gray !important;\n        }\n\n    /*帖子页面点评+回复+举报黑色+点评和赠礼黑色+移动到点上变灰*/\n\n        #uhd .s_nav li .fa {\n            color: black !important;\n        }\n    /*用户页面黑色*/\n\n        .cico2 .fa-angle-double-up{\n            color:black;\n        }\n        .cico2 .fa-angle-double-down{\n            color:black;\n        }\n        .fa_fav i {\n            color: black;\n        }\n    /*论坛版块上升/下降箭头+喜欢变黑*/\n\n\n        .p_pop {\n            border-top-color: black !important;\n        }\n\n\n\n        .c_cp_icon em {\n        background: black;\n      }\n    /*修改新提醒红点*/\n\n    \n        .my_lv .jdt p {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/190748k5nn56vnacocgo7v.gif);\n        }\n    /*用户等级进度条（在右上角个人头像那里）*/\n\n\n        .cmy_main {\n            border-top-color:black;\n        }\n    /*右上角头像框横条黑色*/\n\n\n        .c_ttp li i {\n            background: black;\n        }\n    /*导读选中后下方的橘色横条变成黑色*/\n\n    \n\n        .sign {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/03/163243f770fm4hofwskkhk.gif) no-repeat 0 0;\n        }\n    /*个人签名设置*/\n\n        #uhd .s_nav li em {\n            background: black;\n        }\n        #uhd .s_nav li.a, #uhd .s_nav li.a a, #uhd .s_nav li a:hover, #uhd .flw_hd .sub a:hover, #uhd .flw_hd .sub a:hover .t {\n            color: #AAAAAA;\n        }\n        .c_threadlist li:hover .cur {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/04/110659d9vu2vpcrfpdk5ch.png);\n        }\n        .c_threadlist li .sub a:hover, .c_threadlist li .tit a:hover, .c_threadlist .cli_reply a:hover {\n            color: black;\n        }\n        .c_threadlist li .tit a {\n            color: #7e7e7e;\n        }",
+        "start": 677,
+        "domains": [
+          "giantesswaltz.org"
+        ]
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         GW论坛黑色模式\n@namespace      https://github.com/CMSSserver/GW_Black\n@version        v0.1.2-beta\n@description    Giantess Waltz论坛模板模黑色样式\n@author         CMSSserver\n==/UserStyle== */\n\n\n\n@-moz-document url-prefix(\"https://giantesswaltz.org/search.php\") {\n            #ct {\n            background: #ffffffcc;\n        }\n        #nv_search #ft {\n            background: #ffffffcc;\n            margin: 0 20px;\n        }\n        .p_pop a:hover{\n            background: black;\n        }\n        .pbw p {\n            background: #ffffffcc;\n        }\n        .xs3 {\n            background: #ffffffcc;\n        }\n}\n    @-moz-document domain(\"giantesswaltz.org\") {\n    \n        .slst {\n            width: 100%;\n        }\n        body{\n            background:none !important;\n        }\n        html{\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/131427md6gxzrefqxdabnd.jpg);\n            background-repeat:no-repeat;\n            margin:0px;\n            background-size:100% 100%;\n            background-attachment:fixed;\n        }\n        .ctodayposts{\n            background:black;\n        }\n    /*让主页的消息数背景为黑色*/\n\n    /*！！下面的内容没有注释！！*/\n\n        .cpost{\n            background:black;\n        }\n        .ttp .a a, .ttp .a a:hover, .ttp a:hover{\n            background:black ;\n        }\n        .ttp .num{\n            background:black;\n        }\n        .pg a, .pg strong, .pgb a, .pg label{\n            background-color:black;\n        }\n        .cscrolltop .child{\n            background:black;\n        }\n        .pg strong{\n            color:#fff;\n        }\n        .acpost{\n            background:black;\n        }\n        .tbn li.a{\n            border-left:5px solid black;\n        }\n        .tb .a a, .tb .current a, .tbmu .a{\n            background:black;\n        }\n        .bm_h h2{\n            border-left-color:black;\n        }\n        #threadlist{\n            border-top-color:black;\n        }\n        .c_nv {\n            background-color: black;\n        }\n        .fl .bm_h{\n            border-bottom:1px solid black;\n        }\n        .fl_icn_t{\n            background:black;\n        }\n        .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{\n            background:black;\n        }\n        #threadlist {\n            border-top-color: black;\n        }\n\n        /*！！没注释结束！！*/\n\n        .cft{\n            border-top-color:black;\n        }\n        #ft a:hover {\n           color: black;\n        }\n    /*页脚问题修复*/\n\n        .egg_div {\n            background-color: #ffffffcc;\n        }\n        .vrd_div {\n            height: 400px !important;\n            background-color: #ffffffcc;\n        }\n    /*砸金蛋优化*/\n\n        .c_scbar_type li:hover {\n            background: gray;\n        }\n        .c_scbar_type li {\n            background: black;\n        }\n    /*不在搜索页面的时候（即为弹窗的时候）让它弹窗的一堆东西弄一下*/\n\n        .p_pop a:hover{\n            background: black;\n        }\n    /*下拉框鼠标移动到即为黑色*/\n\n        #pt {\n            background: url(https://giantesswaltz.org/./template/the_c_style/images/tmbg/white_80.png);\n            border-radius: 5px;\n        }\n    /*版块页面上方导航添加白底+圆滑角度*/\n\n\n\n        .pob .cmmnt i {\n            color: black;\n        }\n        .pob .fastre i {\n            color: black;\n        }\n        .pob .report i {\n            color: black;\n        }\n        .pob .editp i {\n            color: black;\n        }\n        .psth, .cm .psth {\n            background-image: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/165648oa01bg21nfg1c7kn.png) !important;\n        }\n        .icon_ring:hover {\n            background: gray !important;\n        }\n\n    /*帖子页面点评+回复+举报黑色+点评和赠礼黑色+移动到点上变灰*/\n\n        #uhd .s_nav li .fa {\n            color: black !important;\n        }\n    /*用户页面黑色*/\n\n        .cico2 .fa-angle-double-up{\n            color:black;\n        }\n        .cico2 .fa-angle-double-down{\n            color:black;\n        }\n        .fa_fav i {\n            color: black;\n        }\n    /*论坛版块上升/下降箭头+喜欢变黑*/\n\n\n        .p_pop {\n            border-top-color: black !important;\n        }\n\n\n\n        .c_cp_icon em {\n        background: black;\n      }\n    /*修改新提醒红点*/\n\n    \n        .my_lv .jdt p {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/190748k5nn56vnacocgo7v.gif);\n        }\n    /*用户等级进度条（在右上角个人头像那里）*/\n\n\n        .cmy_main {\n            border-top-color:black;\n        }\n    /*右上角头像框横条黑色*/\n\n\n        .c_ttp li i {\n            background: black;\n        }\n    /*导读选中后下方的橘色横条变成黑色*/\n\n    \n\n        .sign {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/03/163243f770fm4hofwskkhk.gif) no-repeat 0 0;\n        }\n    /*个人签名设置*/\n\n        #uhd .s_nav li em {\n            background: black;\n        }\n        #uhd .s_nav li.a, #uhd .s_nav li.a a, #uhd .s_nav li a:hover, #uhd .flw_hd .sub a:hover, #uhd .flw_hd .sub a:hover .t {\n            color: #AAAAAA;\n        }\n        .c_threadlist li:hover .cur {\n            background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/04/110659d9vu2vpcrfpdk5ch.png);\n        }\n        .c_threadlist li .sub a:hover, .c_threadlist li .tit a:hover, .c_threadlist .cli_reply a:hover {\n            color: black;\n        }\n        .c_threadlist li .tit a {\n            color: #7e7e7e;\n        }\n    }",
+    "usercssData": {
+      "name": "GW论坛黑色模式",
+      "namespace": "https://github.com/CMSSserver/GW_Black",
+      "version": "0.1.2-beta",
+      "description": "Giantess Waltz论坛模板模黑色样式",
+      "author": "CMSSserver"
+    },
+    "author": "CMSSserver",
+    "description": "Giantess Waltz论坛模板模黑色样式",
+    "name": "GW论坛黑色模式",
+    "updateDate": 1667548698400,
+    "_id": "86e1379f-ffa5-4f30-943a-b8a6aeef9133",
+    "_rev": 1667548916377,
+    "id": 4
+  }
+]
