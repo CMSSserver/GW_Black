@@ -1,0 +1,256 @@
+
+    /*将论坛背景图不显示并且设置为自定义
+    这里的网页背景使用的是GW的远程附件（不知道电话设置的链接过期时间是多少/悲）
+    在此感谢Pixiv画师“浜野星夢”！（https://www.pixiv.net/users/16712014）图像ID：82706082（相关授权问题依据作者个人简介表明只要说明来源出处即可！）*/
+
+    /*
+更新日志：
+    v0.1.1-beta
+        帖子编辑的符号黑色问题
+        让点评+赠礼变成黑色的横向图片变黑
+        修改新提醒红点颜色
+        登录后面后莫名其妙的白框（即为修改了搜索页面背景问题；if像shit一样臃肿（悲））
+        右上角头像框内等级条灰度
+        论坛版块简介大头贴更换默认
+        签名黑色
+    v0.1.2-beta
+        将个人主页的鼠标选中到主题……的时候设为黑色，移动到上方横条变黑+移动到点上的时候是灰点+默认的主题下帖子标题默认灰色，移到上方是黑色
+        右上角头像框横条黑色
+        重新定义用户主页在线显示
+        页脚文本鼠标移到上方变黑
+        同时发布css v0.1.2-beta版本！
+    */
+        .slst {
+            width: 100%;
+        }
+        body{
+            background:none !important;
+        }
+        html{
+            background: url(82706082_p0_master1200.jpg);
+            background-repeat:no-repeat;
+            margin:0px;
+            background-size:100% 100%;
+            background-attachment:fixed;
+        }
+        .ctodayposts{
+            background:black;
+        }
+    /*让主页的消息数背景为黑色*/
+
+    /*！！下面的内容没有注释！！*/
+
+        .cpost{
+            background:black;
+        }
+        .ttp .a a, .ttp .a a:hover, .ttp a:hover{
+            background:black ;
+        }
+        .ttp .num{
+            background:black;
+        }
+        .pg a, .pg strong, .pgb a, .pg label{
+            background-color:black;
+        }
+        .cscrolltop .child{
+            background:black;
+        }
+        .pg strong{
+            color:#fff;
+        }
+        .acpost{
+            background:black;
+        }
+        .tbn li.a{
+            border-left:5px solid black;
+        }
+        .tb .a a, .tb .current a, .tbmu .a{
+            background:black;
+        }
+        .bm_h h2{
+            border-left-color:black;
+        }
+        #threadlist{
+            border-top-color:black;
+        }
+        .c_nv {
+            background-color: black;
+        }
+        .fl .bm_h{
+            border-bottom:1px solid black;
+        }
+        .fl_icn_t{
+            background:black;
+        }
+        .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{
+            background:black;
+        }
+        #threadlist {
+            border-top-color: black;
+        }
+
+        /*！！没注释结束！！*/
+
+        .cft{
+            border-top-color:black;
+        }
+        #ft a:hover {
+           color: black;
+        }
+    /*页脚问题修复*/
+
+        .egg_div {
+            background-color: #ffffffcc;
+        }
+        .vrd_div {
+            height: 400px !important;
+            background-color: #ffffffcc;
+        }
+    /*砸金蛋优化*/
+
+        .c_scbar_type li:hover {
+            background: gray;
+        }
+        .c_scbar_type li {
+            background: black;
+        }
+    /*不在搜索页面的时候（即为弹窗的时候）让它弹窗的一堆东西弄一下*/
+
+        .p_pop a:hover{
+            background: black;
+        }
+    /*下拉框鼠标移动到即为黑色*/
+
+        #pt {
+            background: url(./template/the_c_style/images/tmbg/white_80.png);
+            border-radius: 5px;
+        }
+    /*版块页面上方导航添加白底+圆滑角度*/
+
+
+
+        .pob .cmmnt i {
+            color: black;
+        }
+        .pob .fastre i {
+            color: black;
+        }
+        .pob .report i {
+            color: black;
+        }
+        .pob .editp i {
+            color: black;
+        }
+        .psth, .cm .psth {
+            background-image: url(psth.png) !important;
+        }
+        .icon_ring:hover {
+            background: gray !important;
+        }
+
+    /*帖子页面点评+回复+举报黑色+点评和赠礼黑色+移动到点上变灰*/
+
+        #uhd .s_nav li .fa {
+            color: black !important;
+        }
+    /*用户页面黑色*/
+
+        .cico2 .fa-angle-double-up{
+            color:black;
+        }
+        .cico2 .fa-angle-double-down{
+            color:black;
+        }
+        .fa_fav i {
+            color: black;
+        }
+    /*论坛版块上升/下降箭头+喜欢变黑*/
+
+
+        .p_pop {
+            border-top-color: black !important;
+        }
+
+
+
+        .c_cp_icon em {
+        background: black;
+    }
+    /*修改新提醒红点*/
+
+    
+        .my_lv .jdt p {
+            background: url(jdta.gif);
+        }
+    /*用户等级进度条（在右上角个人头像那里）*/
+
+
+        .cmy_main {
+            border-top-color:black;
+        }
+    /*右上角头像框横条黑色*/
+
+
+        .c_ttp li i {
+            background: black;
+        }
+    /*导读选中后下方的橘色横条变成黑色*/
+
+    
+
+        .sign {
+            background: url(sigline.gif) no-repeat 0 0;
+        }
+    /*个人签名设置*/
+
+        #uhd .s_nav li em {
+            background: black;
+        }
+        #uhd .s_nav li.a, #uhd .s_nav li.a a, #uhd .s_nav li a:hover, #uhd .flw_hd .sub a:hover, #uhd .flw_hd .sub a:hover .t {
+            color: #AAAAAA;
+        }
+        .c_threadlist li:hover .cur {
+            background: url(fuchsine_90.png);
+        }
+        .c_threadlist li .sub a:hover, .c_threadlist li .tit a:hover, .c_threadlist .cli_reply a:hover {
+            color: black;
+        }
+        .c_threadlist li .tit a {
+            color: #7e7e7e;
+        }
+    /*个人主页的主题……按钮设置+移动到上方横条变黑+移动到点上的时候是灰点+默认的主题下帖子标题默认灰色，移到上方是黑色*/
+    /*document.querySelector("#ct > div > div.bm.bw0 > div > div.bm_c.u_profile > div:nth-child(1) > h2 > img").setAttribute("src","./template/the_c_style/images/common/online.png")//重新定义用户主页在线显示*/
+    
+        /*sc_img2.setAttribute("src","/template/the_c_style/images/logo7.png");修改二级SC_LOGO*/
+
+        /*sc_img.setAttribute("src","/template/the_c_style/images/logo7.png");修改一级SC_LOGO*/
+    
+        /*document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner").style.backgroundImage = 'url(https://www.gtsproject.org/waltz/attachment/forum/202211/03/105424x7wqwlidly7uwybo.jpg)';/版块简介大头贴*/
+    
+
+
+
+
+
+
+/*@-moz-document url-prefix("https://giantesswaltz.org/search.php") {
+
+        #ct {
+            background: #ffffffcc;
+        }
+        #nv_search #ft {
+            background: #ffffffcc;
+            margin: 0 20px;
+        }
+        .p_pop a:hover{
+            background: black;
+        }
+        .pbw p {
+            background: #ffffffcc;
+        }
+        .xs3 {
+            background: #ffffffcc;
+        }
+    
+    如果在搜索页面的相关优化
+}*/
