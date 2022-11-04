@@ -1,4 +1,4 @@
-# GW论坛黑色模式
+# GW论坛黑色模式起源仓库（项目）
 
 ## Giantess Waltz论坛模板模黑色样式の油猴脚本
 
@@ -29,7 +29,4 @@
 
 [Click to install GW_Black – Greasy Fork](https://greasyfork.org/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F/code/GW%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F.user.js)
 
-## Style模板文件
-* 为了能够弥补油猴脚本所带来的一系列问题，我正在尝试研究模板下的Style文件夹的编写格式（
-* 相关的文件会放在仓库的Style文件夹下（现在还在研发中）（悲）
-* 由于原模板作者的一系列著作权问题，所以不会在这里发布原来的模板文件！
+## For CSS分支项目（请点击左上角的分支查看）
