@@ -127,7 +127,7 @@ Powered by Discuz! X
     /*下拉框鼠标移动到即为黑色*/
 
         #pt {
-            background: url(./template/the_c_style/images/tmbg/white_80.png);
+            background: url(/template/the_c_style/images/tmbg/white_80.png);
             border-radius: 5px;
         }
     /*版块页面上方导航添加白底+圆滑角度*/
