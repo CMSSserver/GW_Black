@@ -2,7 +2,7 @@
 // @name         GW论坛黑色模式
 // @namespace    https://github.com/CMSSserver/GW_Black
 // @namespace    https://greasyfork.org/zh-CN/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F
-// @version      v0.1.2-beta
+// @version      v0.1.3-beta
 // @description  Giantess Waltz论坛模板模黑色样式の油猴脚本
 // @author       CMSSserver
 // @match        https://giantesswaltz.org/*
@@ -19,8 +19,8 @@
         .slst {
             width: 100%;
         }
-        body{
-            background:none !important;
+        body {
+            background: transparent no-repeat 50% 0 !important;
         }
         html{
             background: url(https://www.gtsproject.org/waltz/attachment/forum/202211/02/131427md6gxzrefqxdabnd.jpg);
@@ -191,6 +191,12 @@
     `)//用户等级进度条（在右上角个人头像那里）
 
     GM_addStyle(`
+        .c_cp_icon a:hover i {
+            color: black;
+        }
+    `)//置顶导航栏鼠标移动到上方按钮变黑色
+
+    GM_addStyle(`
         .cmy_main {
             border-top-color:black;
         }
@@ -238,6 +244,8 @@
         }
     `)//个人签名设置
 
+
+
     GM_addStyle(`
         #uhd .s_nav li em {
             background: black;
@@ -255,8 +263,6 @@
             color: #7e7e7e;
         }
     `)//个人主页的主题……按钮设置+移动到上方横条变黑+移动到点上的时候是灰点+默认的主题下帖子标题默认灰色，移到上方是黑色
-    document.querySelector("#ct > div > div.bm.bw0 > div > div.bm_c.u_profile > div:nth-child(1) > h2 > img").setAttribute("src","./template/the_c_style/images/common/online.png")//重新定义用户主页在线显示
-    
 
     let sc_img2 = document.querySelector("#scform > tbody > tr > td > h1 > a > img");//定义二级搜索页面LOGO
     if(sc_img2 !== null){
@@ -268,12 +274,54 @@
         sc_img.setAttribute("src","/template/the_c_style/images/logo7.png");//修改一级SC_LOGO
     }
 
-    let cbanner = document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner").style.backgroundImage;
-    if(cbanner == 'url("./template/the_c_style/images/banner.jpg")'){
-        document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner").style.backgroundImage = 'url(https://www.gtsproject.org/waltz/attachment/forum/202211/03/105424x7wqwlidly7uwybo.jpg)';
-    }//版块简介大头贴
+
+    //需要添加if
+    let dwj_list_tip = document.querySelector("#dwj_list_tip");
+    if (dwj_list_tip !== null){
+        document.querySelector("#dwj_list_tip").style.background = 'black' ;//夜月杯活动的鼠标移到此处的背景颜色修改
+    }
+
+    let cbanner = document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner");
+    if(cbanner !== null){
+        let cbanner_img = document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner").style.backgroundImage;
+        if(cbanner_img == 'url("./template/the_c_style/images/banner.jpg")'){
+            document.querySelector("#wp > div.boardnav > div.bm.cbm_box > div.cbanner").style.backgroundImage = 'url(https://www.gtsproject.org/waltz/attachment/forum/202211/03/105424x7wqwlidly7uwybo.jpg)';
+        }//版块简介大头贴
+    }
 
 
+
+    let person_home_page = document.querySelector("#ct > div > div.bm.bw0 > div > div.bm_c.u_profile > div:nth-child(1) > h2 > img");
+    if (person_home_page !== null){
+        document.querySelector("#ct > div > div.bm.bw0 > div > div.bm_c.u_profile > div:nth-child(1) > h2 > img").setAttribute("src","./template/the_c_style/images/common/online.png")//重新定义用户主页在线显示
+    }
+
+    let phone_version = document.querySelector("#flk > p:nth-child(1) > a:nth-child(7)");
+    if(phone_version !== null){
+        document.querySelector("#flk > p:nth-child(1) > a:nth-child(7)").textContent = '油猴脚本项目主页';
+        document.querySelector("#flk > p:nth-child(1) > a:nth-child(7)").setAttribute("href","https://github.com/CMSSserver/GW_Black");//页脚的手机版变成油猴脚本项目主页
+    }
+
+    let fast_1 = document.querySelector("#fastpostmessage");
+    if(fast_1 !== null){
+        document.querySelector("#fastpostmessage").setAttribute("placeholder","发一条友善的回复")
+    }
+
+    let pnpost = document.querySelector("#postbox > div.mtm.mbm.pnpost");
+    let pnpost_rule1 = document.createElement('a');
+    pnpost_rule1.textContent= '水贴定义';
+    pnpost_rule1.className = "y";
+    pnpost_rule1.href = "/forum.php?mod=viewthread&tid=9188" ;
+    pnpost_rule1.style.paddingRight = "10px" ;
+    pnpost.appendChild(pnpost_rule1);
+    let pnpost_rule2 = document.createElement('a');
+    pnpost_rule2.textContent= '回复可见使用提示';
+    pnpost_rule2.className = "y";
+    pnpost_rule2.href = "/forum.php?mod=viewthread&tid=8972&extra=page%3D1" ;
+    pnpost_rule2.style.paddingRight = "10px" ;
+    pnpost.appendChild(pnpost_rule2);
+    //发布/回复时水贴公告提示+回复可见使用提示
+    
 })();
 
 /*
@@ -291,5 +339,10 @@
         右上角头像框横条黑色
         重新定义用户主页在线显示
         页脚文本鼠标移到上方变黑
-        同时发布css v0.1.2-beta版本！
+        同时发布css版本！
+    v0.1.3-beta
+        页面最下方回复提示：发一条友善的回复
+        发布/回复时水贴公告提示+回复可见使用提示
+        置顶导航栏鼠标移动到上方按钮变黑色
+        
 */
