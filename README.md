@@ -2,7 +2,7 @@
 
 ## Giantess Waltz论坛模板模黑色样式の油猴脚本
 
-### 🔊请从 [GitHub](https://github.com/CMSSserver/GW_Black/edit/main/README.md)&[Greasy Fork](https://greasyfork.org/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F)安装新版✨
+### 🔊请从 [GitHub](https://github.com/CMSSserver/GW_Black/releases)&[Greasy Fork](https://greasyfork.org/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F)安装新版✨
 
 ### 具体修改内容
 * 不想写，自己体验
@@ -25,8 +25,7 @@
 [GW_Black – GitHub](https://github.com/CMSSserver/GW_Black)
 
 ### 安装地址（任选其一；最新版本）
-[Click to install GW_Black – GitHub](https://github.com/CMSSserver/GW_Black/releases/download/v0.1.2-beta/GW_Black.js)
-
+前往右侧最新[Releases](https://github.com/CMSSserver/GW_Black/releases)安装
 [Click to install GW_Black – Greasy Fork](https://greasyfork.org/scripts/454126-gw%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F/code/GW%E8%AE%BA%E5%9D%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F.user.js)
 
 ## For CSS分支项目（请点击左上角的分支查看）
